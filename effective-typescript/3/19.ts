@@ -41,7 +41,7 @@ const axis1: string = "x"
 const axis2 = "y"
 
 interface Product {
-  id: number;
+  id: number | string
   name: string;
   price: number
 }
