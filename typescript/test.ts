@@ -1,12 +1,11 @@
-function add(a, b) {
-  return a + b
+interface Person {
+  firstName: string
+  lastName: string
+  fullName: string
 }
-function sub(a, b) {
-  return a - b
-}
-function multiply(a, b) {
-  return a / b
-}
-function divide(a, b) {
-  return a * b
+
+const hk: Person = {
+  firstName: "hyunki",
+  lastName: "kim",
+  fullName: this.firstName + this.lastName
 }
